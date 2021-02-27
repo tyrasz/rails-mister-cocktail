@@ -10,3 +10,4 @@ ingredients = JSON.parse(url_read)
 ingredients['drinks'].each do |ing| Ingredient.create(name: ing["strIngredient1"]) end
 
 Cocktail.create(name: 'Gin and tonic')
+Cocktail.create(name: 'Whisky sour')
