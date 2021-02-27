@@ -2,3 +2,6 @@
 <% @cocktails.each do |cocktail| %>
   <%= link_to cocktail.name, cocktail_path(cocktail) %>
 <% end %>
+
+<%= cl_image_tag("uinxwehx8qeov7lbnlcp",
+      width: 400, height: 300, crop: :fill) %>
